@@ -32,7 +32,7 @@
                         <mxPoint x="540" y="690" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="25" value="DataBase/API" style="swimlane;startSize=20;html=1;" vertex="1" parent="1">
+                <mxCell id="25" value="DataBase/API" style="swimlane;startSize=20;html=1;fillColor=default;swimlaneFillColor=default;" vertex="1" parent="1">
                     <mxGeometry x="20" y="10" width="180" height="790" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="Q1. どういう処理をするか" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="25" vertex="1">
