@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e">
+    <diagram id="6hGjJqjaPUIHLYzqYKvI" name="Page-1">
+        <mxGraphModel dx="1984" dy="1200" grid="1" gridSize="30" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="14" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="150" y="90" width="570" height="653" as="geometry"/>
+                </mxCell>
+                <mxCell id="uGYLsN3fqCkKk5OynrGJ-33" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="14" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="404" y="180" as="sourcePoint"/>
+                        <mxPoint x="404" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uGYLsN3fqCkKk5OynrGJ-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="14" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="404.5" y="60" as="sourcePoint"/>
+                        <mxPoint x="404.5" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Pubmedから&lt;/span&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;データを取得する&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="14">
+                    <mxGeometry x="300" y="120" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="uGYLsN3fqCkKk5OynrGJ-24" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;PubMed API&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="14" vertex="1">
+                    <mxGeometry y="120" width="210" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="検索条件を使用者が設定" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="14">
+                    <mxGeometry x="300" width="210" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="group" vertex="1" connectable="0" parent="14">
+                    <mxGeometry x="45" y="240" width="525" height="413" as="geometry"/>
+                </mxCell>
+                <mxCell id="uGYLsN3fqCkKk5OynrGJ-14" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Googleスプレッドシートに書き出す&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" parent="10" vertex="1">
+                    <mxGeometry x="255" y="353" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="uGYLsN3fqCkKk5OynrGJ-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="10" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="359.5" y="66" as="sourcePoint"/>
+                        <mxPoint x="359.5" y="132" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="uGYLsN3fqCkKk5OynrGJ-23" value="？" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="10" vertex="1">
+                    <mxGeometry x="255" width="210" height="66" as="geometry"/>
+                </mxCell>
+                <mxCell id="uGYLsN3fqCkKk5OynrGJ-25" value="論文の文章中の「遺伝子、タンパク質、過剰発現、変異体、表現型」というキーワードに注目し、それらの対応関係についての情報を抽出して表形式で出力する。" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="10" vertex="1">
+                    <mxGeometry x="195" y="134" width="330" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Q1. どういう処理をするか&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="10">
+                    <mxGeometry y="18" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Q2.何がほしいか&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="10">
+                    <mxGeometry x="15" y="194" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="10">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="359.33" y="284" as="sourcePoint"/>
+                        <mxPoint x="359.33" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="14" target="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="210" y="150" as="sourcePoint"/>
+                        <mxPoint x="210" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
