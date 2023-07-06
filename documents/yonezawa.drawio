@@ -10,7 +10,7 @@
                 <mxCell id="2" value="PubMed API" style="rounded=0;whiteSpace=wrap;html=1;" parent="25" vertex="1">
                     <mxGeometry x="30" y="160" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="46" value="GPT API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="25">
+                <mxCell id="46" value="GPT API" style="rounded=0;whiteSpace=wrap;html=1;" parent="25" vertex="1">
                     <mxGeometry x="30" y="350" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="\\" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="4" edge="1">
@@ -39,7 +39,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="9" value="熱処理を加えていない文献を除く" style="rounded=1;whiteSpace=wrap;html=1;" parent="28" vertex="1">
-                    <mxGeometry x="25" y="400" width="130" height="60" as="geometry"/>
+                    <mxGeometry x="30" y="390" width="130" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="PMCから&lt;br&gt;データを取得する" style="rounded=1;whiteSpace=wrap;html=1;" parent="28" vertex="1">
                     <mxGeometry x="30" y="160" width="120" height="60" as="geometry"/>
@@ -86,7 +86,7 @@
                 <mxCell id="32" value="Not heat-treated&amp;nbsp;&lt;br&gt;article data&lt;br&gt;(spreadsheet)" style="rounded=0;whiteSpace=wrap;html=1;" parent="29" vertex="1">
                     <mxGeometry x="45" y="400" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="一つの処理を一つの関数にブチ込める&lt;br&gt;ようにアクティビティ図を完成させる" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="29">
+                <mxCell id="55" value="一つの処理を一つの関数にブチ込める&lt;br&gt;ようにアクティビティ図を完成させる" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="29" vertex="1">
                     <mxGeometry x="-35" y="285" width="230" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9" target="32" edge="1">
@@ -107,33 +107,29 @@
                         <mxPoint x="290" y="650" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="48" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.008;exitY=0.639;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="46" target="10">
+                <mxCell id="48" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.008;exitY=0.639;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="46" target="10" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="160" y="500" as="sourcePoint"/>
                         <mxPoint x="240" y="330" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="49" value="メモ：繰り返し処理を後で追加" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="49" value="メモ：繰り返し処理を後で追加" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="570" y="240" width="190" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="差分をとってくる処理をわかりやすく&lt;br&gt;書く" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="51" value="差分をとってくる処理をわかりやすく&lt;br&gt;書く" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="570" y="565" width="230" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="52" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="580" y="320" as="sourcePoint"/>
-                        <mxPoint x="680" y="320" as="targetPoint"/>
-                        <Array as="points"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="53" value="スキーマ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="53" value="スキーマ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="620" y="360" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="46" target="9">
+                <mxCell id="54" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="46" target="9" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="180.96000000000004" y="408.3399999999999" as="sourcePoint"/>
                         <mxPoint x="225" y="550" as="targetPoint"/>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="そら" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="490" width="50" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
