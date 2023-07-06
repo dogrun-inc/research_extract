@@ -26,8 +26,8 @@
                 <mxCell id="28" value="Process&lt;br&gt;" style="swimlane;startSize=20;html=1;" parent="1" vertex="1">
                     <mxGeometry x="200" y="10" width="180" height="790" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="検索条件" style="rounded=0;whiteSpace=wrap;html=1;" parent="28" vertex="1">
-                    <mxGeometry x="30" y="60" width="120" height="60" as="geometry"/>
+                <mxCell id="5" value="Query&lt;br&gt;｢&quot;heat stress&quot; OR &quot;heat shock&quot; OR &quot;high-temperature stress&quot;｣" style="rounded=0;whiteSpace=wrap;html=1;" parent="28" vertex="1">
+                    <mxGeometry x="20" y="40" width="140" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="28" source="4" target="5" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -36,22 +36,22 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="9" value="熱処理を加えていない文献を除く" style="rounded=1;whiteSpace=wrap;html=1;" parent="28" vertex="1">
-                    <mxGeometry x="25" y="390" width="130" height="60" as="geometry"/>
+                    <mxGeometry x="25" y="470" width="130" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="Pubmedから&lt;br&gt;データを取得する" style="rounded=1;whiteSpace=wrap;html=1;" parent="28" vertex="1">
                     <mxGeometry x="30" y="160" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="28" source="4" edge="1">
+                <mxCell id="8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="28" source="4" target="33" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="40" y="320" as="sourcePoint"/>
-                        <mxPoint x="90" y="260" as="targetPoint"/>
+                        <mxPoint x="90" y="270" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="10" value="1. temperature&lt;br&gt;2. time&lt;br&gt;3. treatment" style="rounded=0;whiteSpace=wrap;html=1;" parent="28" vertex="1">
                     <mxGeometry x="15" y="570" width="150" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="Materials &amp;amp; Methods&lt;br&gt;を抽出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="28">
-                    <mxGeometry x="30" y="260" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="30" y="380" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="28" source="33" target="9">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -80,8 +80,8 @@
                 <mxCell id="15" value="Data&lt;br&gt;(spreadsheet)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="29" vertex="1">
                     <mxGeometry x="45" y="690" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="Not heat-treated&amp;nbsp;&lt;br&gt;article data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="29">
-                    <mxGeometry x="45" y="390" width="120" height="60" as="geometry"/>
+                <mxCell id="32" value="Not heat-treated&amp;nbsp;&lt;br&gt;article data&lt;br&gt;(spreadsheet)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="29">
+                    <mxGeometry x="45" y="470" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="32">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -90,10 +90,10 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="16" value="Q1. どういう処理をするか" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="580" y="420" width="170" height="30" as="geometry"/>
+                    <mxGeometry x="580" y="500" width="170" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="Q2.何がほしいか&lt;br&gt;(優先)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="610" y="585" width="110" height="40" as="geometry"/>
+                    <mxGeometry x="610" y="710" width="110" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
