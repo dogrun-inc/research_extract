@@ -1,0 +1,8 @@
+{
+    "name": "devcontainer-python3.9",
+    "image": "mcr.microsoft.com/devcontainers/python:3.9-bullseye",
+    "containerEnv": {
+      "TZ": "Asia/Tokyo"
+    },
+    "runArgs": ["--init"]
+  }
