@@ -124,7 +124,7 @@
                     <mxGeometry x="60" y="1090" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="103" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fillColor=none;strokeWidth=3;" parent="28" vertex="1">
-                    <mxGeometry x="10" y="615" width="450" height="670" as="geometry"/>
+                    <mxGeometry x="10" y="615" width="670" height="670" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="Processed Data" style="swimlane;startSize=20;html=1;" parent="1" vertex="1">
                     <mxGeometry x="650" y="10" width="230" height="1310" as="geometry"/>
