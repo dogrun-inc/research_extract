@@ -5,7 +5,7 @@
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="25" value="DataBase/API" style="swimlane;startSize=20;html=1;fillColor=default;swimlaneFillColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="-50" y="10" width="230" height="1310" as="geometry"/>
+                    <mxGeometry x="-50" y="10" width="700" height="1310" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="E-utils&lt;br&gt;( PubMed API )" style="rounded=0;whiteSpace=wrap;html=1;" parent="25" vertex="1">
                     <mxGeometry x="55" y="160" width="120" height="60" as="geometry"/>
@@ -16,11 +16,14 @@
                 <mxCell id="90" value="GPT API" style="rounded=0;whiteSpace=wrap;html=1;" parent="25" vertex="1">
                     <mxGeometry x="55" y="800" width="120" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="104" value="Google&amp;nbsp; API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="25">
+                    <mxGeometry x="55" y="1200" width="120" height="60" as="geometry"/>
+                </mxCell>
                 <mxCell id="28" value="Process (in working directory)&amp;nbsp;" style="swimlane;startSize=20;html=1;" parent="1" vertex="1">
                     <mxGeometry x="180" y="10" width="470" height="1310" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Query (patameter)&lt;br&gt;｢&quot;heat stress&quot; OR &quot;heat shock&quot; OR &quot;high-temperature stress&quot;｣" style="rounded=0;whiteSpace=wrap;html=1;" parent="28" vertex="1">
-                    <mxGeometry x="125" y="40" width="220" height="80" as="geometry"/>
+                <mxCell id="5" value="Query (patameter)&lt;br&gt;｢(&quot;heat stress&quot; OR &quot;heat shock&quot; OR &quot;high-temperature stress&quot;) AND organism｣" style="rounded=0;whiteSpace=wrap;html=1;" parent="28" vertex="1">
+                    <mxGeometry x="80" y="40" width="310" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="28" source="4" target="5" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -49,7 +52,7 @@
                 <mxCell id="44" value="Get PMC ID.&lt;br&gt;paper title" style="rounded=1;whiteSpace=wrap;html=1;" parent="28" vertex="1">
                     <mxGeometry x="140" y="800" width="80" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="Process ID&lt;br&gt;GET metadata&lt;br&gt;&quot;article title&quot;&lt;br&gt;&quot;Materials &amp;amp; methods&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="28" vertex="1">
+                <mxCell id="62" value="Process ID&lt;br&gt;GET metadata&lt;br&gt;&quot;paper title&quot;&lt;br&gt;&quot;Materials &amp;amp; methods&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="28" vertex="1">
                     <mxGeometry x="140" y="380" width="190" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="28" source="56" target="62" edge="1">
@@ -85,7 +88,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="72" value="Get PMC ID, &lt;br&gt;paper title" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=none;" parent="28" vertex="1">
-                    <mxGeometry x="305" y="760" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="305" y="750" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="83" value="" style="edgeStyle=none;html=1;" parent="28" source="74" target="76" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -124,7 +127,7 @@
                     <mxGeometry x="60" y="1090" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="103" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;fillColor=none;strokeWidth=3;" parent="28" vertex="1">
-                    <mxGeometry x="10" y="615" width="670" height="670" as="geometry"/>
+                    <mxGeometry y="380" width="690" height="900" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="Processed Data" style="swimlane;startSize=20;html=1;" parent="1" vertex="1">
                     <mxGeometry x="650" y="10" width="230" height="1310" as="geometry"/>
@@ -194,6 +197,12 @@
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="425" y="1200" as="sourcePoint"/>
                         <mxPoint x="540" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="109" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="104" target="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="450" y="1090" as="sourcePoint"/>
+                        <mxPoint x="500" y="1040" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>
